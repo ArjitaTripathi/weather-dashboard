@@ -20,7 +20,7 @@ const MainContent = ({ defaultCoords }) => {
         ? cityDate.toLocaleString("en-US", { ...options, timeZone: "UTC" })
         : new Date().toLocaleString("en-US", options)
     const localTime = cityDate
-        ? cityDate.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "UTC" })
+        ? cityDate.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit", timeZone: "UTC" })
         : "--"
     const utcTime = weatherInfo?.dt ? new Date(weatherInfo.dt * 1000) : null
 
