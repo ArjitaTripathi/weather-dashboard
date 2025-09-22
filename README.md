@@ -9,7 +9,8 @@ It supports both **Celsius (°C) and Fahrenheit (°F)** and can detect the user'
 - 5-day weather forecast  
 - Celsius ↔ Fahrenheit toggle
 - Responsive design
-- Chnage backgorund color based on city's local time 
+- Change background color based on city's local time
+- Shows AQI level of the city
 
 ## ⚙️ Setup
 1. Clone the repo  
