@@ -1,0 +1,30 @@
+:root {
+  -webkit-text-fill-color: #fff;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+h3{
+  margin: 10px 0;
+}
+hr{
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.30);
+  margin: 3px 0;
+  width: 100%;
+}
+
