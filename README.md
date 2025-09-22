@@ -1,5 +1,5 @@
 
-# 🌦️ Weather App
+# 🌦️ Weather Dashboard
 
 A simple weather app built with **React** that shows current weather and a 5-day forecast using the **OpenWeather API**.  
 It supports both **Celsius (°C) and Fahrenheit (°F)** and can detect the user's location using the **Geolocation API**.
