@@ -42,7 +42,7 @@ It supports both **Celsius (°C) and Fahrenheit (°F)** and can detect the user'
 * Axios
 * CSS
 
-##Screenshots
+## Screenshots
 
 <img width="699" height="3228" alt="localhost_5173_" src="https://github.com/user-attachments/assets/ce51a35e-3ee6-4dd8-9563-0b6bf8f69d6e" />
 
