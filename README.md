@@ -1,17 +1,54 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌦️ Weather Dashboard
 
-Currently, two official plugins are available:
+A simple weather app built with **React** that shows current weather and a 5-day forecast using the **OpenWeather API**.  
+It supports both **Celsius (°C) and Fahrenheit (°F)** and can detect the user's location using the **Geolocation API**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Current weather by city or location  
+- 5-day weather forecast  
+- Celsius ↔ Fahrenheit toggle
+- Responsive design
+- Change background color based on city's local time
+- Shows AQI level of the city
 
-## Expanding the ESLint configuration
+## ⚙️ Setup
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
+    ````
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+3. Add your API key in `.env`
+
+   ```
+   VITE_WEATHER_API_KEY=your_api_key_here
+   ```
+4. Run the app
+
+   ```bash
+   npm run dev
+   ```
+
+## 📦 Tech Stack
+
+* React
+* Context API
+* Axios
+* CSS
+
+## Screenshots
+
+<img width="699" height="3228" alt="localhost_5173_" src="https://github.com/user-attachments/assets/ce51a35e-3ee6-4dd8-9563-0b6bf8f69d6e" />
+
+<img width="2530" height="1588" alt="localhost_5173_ (2)" src="https://github.com/user-attachments/assets/9df84d9a-7b8f-402b-bdee-38039322116a" />
 
 
-##challenges faced
 
-1. how to get 5 days forcast as it gives 40 items 3 hour interval for 5 days .
+
+
