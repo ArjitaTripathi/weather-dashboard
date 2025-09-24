@@ -12,7 +12,7 @@ export const WeatherProvider = ({children}) => {
         city,setCity,
         cityCoords, setCityCoords,
         weatherInfo, setWeatherInfo,
-        tempValue, setTempValue
+        tempValue, setTempValue,
     }),[city, weatherInfo, cityCoords, tempValue])
 
     return(

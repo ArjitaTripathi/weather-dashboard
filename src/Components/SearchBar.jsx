@@ -52,7 +52,7 @@ const SearchBar = () => {
         top: `${rect.bottom}px`,
         left: `${rect.left}px`,
         width: `${rect.width}px`,
-        zIndex: 1000000
+        zIndex: 10000 
       })
     }
     if (showCitiesList && citiesList.length > 0) {
@@ -82,6 +82,7 @@ const SearchBar = () => {
         placeholder="Search for a city..."
         value={userInput}
         onChange={handleInputChange}
+        onFocus={() => {if(citiesList.length > 0) setShowCitiesList(true)}}
       />
       {citiesList.length > 0 && showCitiesList && createPortal(
         (

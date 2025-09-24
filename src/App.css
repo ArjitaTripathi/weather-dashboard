@@ -38,14 +38,6 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.darkModeCard {
-  backdrop-filter: blur(3px) saturate(157%);
-  -webkit-backdrop-filter: blur(3px) saturate(157%);
-  background-color: rgba(17, 25, 40, 0.66);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-}
-
 /* header */
 .header {
   height: 70px;
